@@ -1,4 +1,4 @@
-##WxTouchEvent 微信小程序手势事件库
+## WxTouchEvent 微信小程序手势事件库
 
 由于微信小程序只能够支持 tap,longtap,touchstart,touchmove,touchcancel,touchend时间，对于比较复杂的事件只能自己实现
 因此自己对 `alloyFinger`库进行了改造，开发了时候微信小程序手势事件库`WxTouchEvent`,使用 ES
@@ -20,7 +20,7 @@
 *   swipe
 
 
-###使用
+### 使用
 由于和微信小程序强绑定，因此需要在元素上面绑定好所有的事件，书写比较麻烦，因此建议对于原生支持的使用原生去解决，
 只有当需要 pinch，rotate,swipe 等特殊事件才使用这个事件库实现
 
